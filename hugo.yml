@@ -1,4 +1,4 @@
-baseURL: "https://seoul.pp.ua" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://damhwee.pages.dev" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Blog
 paginate: 5
 theme: PaperMod
@@ -35,8 +35,7 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                - name: OpenAPI
-                  url: https://openapi.pp.ua/docs
+                
 
 
 outputs:
@@ -94,7 +93,7 @@ params:
     #         SiteVerificationTag: "XYZabc"
 
     assets:
-        disableHLJS: true
+        disableHLJS: false
     #     favicon: "<link / abs url>"
     #     favicon16x16: "<link / abs url>"
     #     favicon32x32: "<link / abs url>"
